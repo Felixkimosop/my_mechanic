@@ -33,9 +33,23 @@
 }
 #landing{
     display: flex;
+    justify-content: space-around;
 }
 #locations{
     margin-left: 20px;
+}
+#locations h3{
+    color: #264D19;
+}
+.lister{
+    margin-top: 6px;
+    color: #264D19;
+    transition: all 0.5s;
+}
+.lister:hover{
+    color: blue;
+    background-color: rgb(66, 54, 6);
+    cursor: pointer;
 }
 #searchbtn{
     padding: 0 30px 30px;
@@ -50,6 +64,16 @@
     padding-top: 20px;
     text-align: center;
 }
+#picture{
+    align-items: center;
+    text-align: center;
+}
+#image{
+    width: 500px;
+    height: 300px;
+    margin-top: 10px;
+}
+
 #footer{
     background-color: #5B5757;
     display: flex;

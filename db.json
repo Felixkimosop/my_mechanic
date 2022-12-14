@@ -1,4 +1,4 @@
-{"Premiere": [
+{"mechanic": [
     {
       "id": "1",
       "name": "Sylvester Mwingi",
@@ -9,7 +9,7 @@
       "availability": "24/7",
       "tel": "+254735652375",
       "rating": "5/5",
-      "image": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+      "image": "images/mechanic_4-removebg-preview.png"
     },
     {
         "id": "2",
@@ -21,7 +21,7 @@
         "availability": "24/7",
         "tel": "+254735652345",
         "rating": "5/5",
-        "image": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+        "image": "images/mechanic_12-removebg-preview.png"
       },
       {
         "id": "3",
@@ -33,7 +33,7 @@
         "availability": "24/7",
         "tel": "+254735652322",
         "rating": "5/5",
-        "image": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+        "image": "images/Mechanic-removebg-preview.png"
       },
       {
         "id": "4",
@@ -45,7 +45,7 @@
         "availability": "24/7",
         "tel": "+254735652300",
         "rating": "5/5",
-        "image": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+        "image": "images/mechanic1-removebg-preview.png"
       },
       {
         "id": "5",
@@ -57,7 +57,7 @@
         "availability": "24/7",
         "tel": "+254735652000",
         "rating": "5/5",
-        "image": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+        "image": "images/Mechanic2-removebg-preview.png"
       },
       {
         "id": "6",
@@ -69,7 +69,7 @@
         "availability": "24/7",
         "tel": "+254735652333",
         "rating": "5/5",
-        "image": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+        "image": "images/mechanic5-removebg-preview.png"
       },
       {
         "id": "7",
@@ -81,7 +81,7 @@
         "availability": "24/7",
         "tel": "+254735652375",
         "rating": "5/5",
-        "image": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+        "image": "images/mechanic6-removebg-preview.png"
       },
       {
         "id": "8",
@@ -93,7 +93,7 @@
         "availability": "24/7",
         "tel": "+254735652375",
         "rating": "5/5",
-        "image": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+        "image": "images/mechanic7.jpeg"
       },
       {
         "id": "9",
@@ -105,7 +105,7 @@
         "availability": "24/7",
         "tel": "+254735652375",
         "rating": "5/5",
-        "image": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+        "image": "images/mechanic8-removebg-preview.png"
       },
       {
         "id": "10",
@@ -117,7 +117,7 @@
         "availability": "24/7",
         "tel": "+254735652375",
         "rating": "5/5",
-        "image": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+        "image": "images/mechanic9-removebg-preview.png"
       },
       {
         "id": "11",
@@ -129,7 +129,7 @@
         "availability": "24/7",
         "tel": "+254735652375",
         "rating": "5/5",
-        "image": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+        "image": "images/mechanic10-removebg-preview.png"
       },
       {
         "id": "12",
@@ -141,7 +141,7 @@
         "availability": "24/7",
         "tel": "+254735652375",
         "rating": "5/5",
-        "image": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+        "image": "images/mechanic11-removebg-preview.png"
       },
       {
         "id": "13",
@@ -153,7 +153,7 @@
         "availability": "24/7",
         "tel": "+254735652375",
         "rating": "5/5",
-        "image": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+        "image": "images/Mechanic-removebg-preview.png"
       }
 ]
 }
