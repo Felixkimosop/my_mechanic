@@ -1,0 +1,33 @@
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+#navbar li{
+    display: inline;
+    padding: 30px;
+    left: 80%;
+    font-size: 20px;
+}
+#input{
+    border: none;
+    font-size:20px;
+    font-weight: bold;
+    left: 75%;
+}
+#search{
+    margin-top: 20px;
+    align-items: center;
+}
+.btn{
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+#header{
+    color: #a63fe4;
+}
+#head{
+    color: #2E7A0A;
+}
