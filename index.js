@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function() {
 fetch("http://localhost:3000/mechanic")
 .then(res => res.json())
 .then(function(mechanic){
@@ -43,30 +44,32 @@ fetch("http://localhost:3000/mechanic")
        
     })
     const input = document.querySelector(".input")
+    
     let myDiv = document.getElementsByClassName("list")
     console.log(myDiv)
+    // console.log(location)
     
 
     input.addEventListener("keyup",filterInput)
 
     function filterInput(){
         let filterValue = input.value.toUpperCase()
-        console.log(filterValue)
-        let item = document.querySelectorAll(".lister").textContent
-        console.log(item)
+        // console.log(filterValue)
+        let item = document.getElementsByTagName("li")
+        // console.log(item)
 
-        // for(let i = 0; i<item.length; i++){
-        //     let span = item[i].querySelector(".lister")
-        //     console.log(span)
+        for(let i = 0; i<item.length; i++){
+            let span = item[i]
+            console.log(span)
 
 
-        //     if(span.innerHTML.toUpperCase().indexOf(filterValue)> -1){
-        //         item[i].style.display = "initial"
-        //     }
-        //     else{
-        //         item[i].style.display = "none"
-        //     }
-        // }
+            if(span.innerHTML.toUpperCase().indexOf(filterValue)> -1){
+                item[i].style.display = ""
+            }
+            else{
+                item[i].style.display = "none"
+            }
+        }
 
       
 
@@ -83,4 +86,6 @@ fetch("http://localhost:3000/mechanic")
 
         
     
+})
+
 })

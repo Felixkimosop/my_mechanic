@@ -1,3 +1,9 @@
+/* 
+    body {
+      height: 90vh;
+      width: 100%;
+    } */
+  
 #navbar{
     display: flex;
     justify-content: space-around;
@@ -9,6 +15,10 @@
     padding: 30px;
     left: 80%;
     font-size: 20px;
+}
+#navbar li:hover{
+    color: blue;
+    cursor: pointer;
 }
 /* #input{
     border: none;
@@ -34,6 +44,7 @@
 #landing{
     display: flex;
     justify-content: space-around;
+    margin-left: 10px;
 }
 #locations{
     margin-left: 20px;
@@ -79,11 +90,17 @@
     display: flex;
     padding: 50px;
     justify-content: space-evenly;
-    margin-top: 60px;
+    margin-top: 130px;
+    margin-bottom: 0px;
+    
+    bottom: 0px;
 }
 #footer a{
     text-decoration: none;
     color: #fff;
+}
+#footer a:hover{
+    color: blue;
 }
 
 #footer h3{
@@ -95,4 +112,9 @@
 }
 #footer li{
     color: #fff;
+}
+
+#ad{
+    display: flex;
+    justify-content: space-around;
 }
