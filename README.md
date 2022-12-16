@@ -1,5 +1,5 @@
 # Name of the Project: My Mechanic
-## Author : Kimosop Felix Kipruto, 15/12/2022
+## Author : Kimosop Felix Kipruto, 16/12/2022
 ## Project Description
 This web app enables users to get mechanics in the locations available on the display. It displaays the name and picture of the mechanic. It also displays their expertise, ratings and their years of experience. This application also enables users to leave a comment of their experience with the nechanic.
 
@@ -28,7 +28,7 @@ $ pip install -r requirements.txt To install all requirements
 $ json-server --watch db.json runserver Then run server with the above command
 
 Live Link
-Or you can access the web application directly via this LINK.
+Or you can access the web application directly via this [LINK](https://felixkimosop.github.io/my_mechanic/).
 
 Dependencies
 Package Name
