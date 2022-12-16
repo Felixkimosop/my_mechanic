@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch("http://localhost:3000/mechanic")
     .then((res) => res.json())
     .then(function (mechanic) {
-      
       mechanic.map(function (mechanic) {
         let locations = document.getElementById("list");
         let list = document.createElement("li");
@@ -26,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
           let availability = document.getElementById("availability");
           let rating = document.getElementById("rating");
           let tell = document.getElementById("tell");
-          let enter = document.getElementById("enter")
+          let enter = document.getElementById("enter");
 
           image.src = mechanic.image;
           name.textContent = mechanic.name;
@@ -39,22 +38,20 @@ document.addEventListener("DOMContentLoaded", function () {
           availability.textContent = mechanic.availability;
           rating.textContent = mechanic.rating;
           tell.textContent = mechanic.tel;
-          enter.textContent = mechanic.comment
+          enter.textContent = mechanic.comment;
         }
       });
       const input = document.querySelector(".input");
 
       let myDiv = document.getElementsByClassName("list");
       console.log(myDiv);
-     
 
       input.addEventListener("keyup", filterInput);
 
       function filterInput() {
         let filterValue = input.value.toUpperCase();
-     
+
         let item = document.getElementsByTagName("li");
-       
 
         for (let i = 0; i < item.length; i++) {
           let span = item[i];
@@ -70,13 +67,12 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-const btn = document.getElementById('btn')
+const btn = document.getElementById("btn");
 
-btn.addEventListener("click",function(e){
-e.preventDefault()
-const comment = document.getElementById("comment").value
-let myComment = document.getElementById("enter")
-console.log(comment)
-myComment.innerHTML = comment
-
-})
+btn.addEventListener("click", function (e) {
+  e.preventDefault();
+  const comment = document.getElementById("comment").value;
+  let myComment = document.getElementById("enter");
+  console.log(comment);
+  myComment.innerHTML = comment;
+});
