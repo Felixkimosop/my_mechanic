@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let filterValue = input.value.toUpperCase();
         // console.log(filterValue)
         let item = document.getElementsByTagName("li");
-        // console.log(item)
+       
 
         for (let i = 0; i < item.length; i++) {
           let span = item[i];
