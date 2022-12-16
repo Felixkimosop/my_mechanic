@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch("http://localhost:3000/mechanic")
     .then((res) => res.json())
     .then(function (mechanic) {
-      // console.log(mechanic)
+      
       mechanic.map(function (mechanic) {
         let locations = document.getElementById("list");
         let list = document.createElement("li");
@@ -46,13 +46,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
       let myDiv = document.getElementsByClassName("list");
       console.log(myDiv);
-      // console.log(location)
+     
 
       input.addEventListener("keyup", filterInput);
 
       function filterInput() {
         let filterValue = input.value.toUpperCase();
-        // console.log(filterValue)
+     
         let item = document.getElementsByTagName("li");
        
 
