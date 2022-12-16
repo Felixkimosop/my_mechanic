@@ -20,12 +20,7 @@
     color: blue;
     cursor: pointer;
 }
-/* #input{
-    border: none;
-    font-size:20px;
-    font-weight: bold;
-    left: 75%;
-} */
+
 #search{
     margin-top: 20px;
     align-items: center;
