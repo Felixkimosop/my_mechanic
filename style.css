@@ -3,146 +3,143 @@
       height: 90vh;
       width: 100%;
     } */
-  
-#navbar{
-    display: flex;
-    justify-content: space-around;
-    
-    
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
 }
-#navbar li{
-    display: inline;
-    padding: 30px;
-    left: 80%;
-    font-size: 20px;
+#navbar li {
+  display: inline;
+  padding: 30px;
+  left: 80%;
+  font-size: 20px;
 }
-#navbar li:hover{
-    color: blue;
-    cursor: pointer;
+#navbar li:hover {
+  color: blue;
+  cursor: pointer;
 }
 
-#search{
-    margin-top: 20px;
-    align-items: center;
+#search {
+  margin-top: 20px;
+  align-items: center;
 }
-.btn{
-    border: none;
-    font-size: 20px;
-    font-weight: bold;
+.btn {
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
 }
-#header{
-    color: #a63fe4;
+#header {
+  color: #a63fe4;
 }
-#head{
-    color: #2E7A0A;
+#head {
+  color: #2e7a0a;
 }
-#landing{
-    display: flex;
-    justify-content: space-around;
-    margin-left: 10px;
+#landing {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10px;
 }
-#locations{
-    margin-left: 20px;
+#locations {
+  margin-left: 20px;
 }
-#locations h3{
-    color: #264D19;
+#locations h3 {
+  color: #264d19;
 }
-.lister{
-    margin-top: 6px;
-    color: #264D19;
-    transition: all 0.5s;
+.lister {
+  margin-top: 6px;
+  color: #264d19;
+  transition: all 0.5s;
 }
-.lister:hover{
-    color: blue;
-    background-color: rgb(66, 54, 6);
-    cursor: pointer;
+.lister:hover {
+  color: blue;
+  background-color: rgb(66, 54, 6);
+  cursor: pointer;
 }
-#searchbtn{
-    padding: 0 30px 30px;
-    left: 50%;
-    top: 50%;
-    margin-left: 25%;
-    margin-right: 25%;    
-    justify-content: space-around;
-    border: 6px;
-    border-radius: 20px;
-    margin-top: 10px;
-    padding-top: 20px;
-    text-align: center;
+#searchbtn {
+  padding: 0 30px 30px;
+  left: 50%;
+  top: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  justify-content: space-around;
+  border: 6px;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-top: 20px;
+  text-align: center;
 }
-#picture{
-    align-items: center;
-    text-align: center;
+#picture {
+  align-items: center;
+  text-align: center;
 }
-#image{
-    width: 500px;
-    height: 300px;
-    margin-top: 10px;
-}
-
-#footer{
-    background-color: #5B5757;
-    display: flex;
-    padding: 50px;
-    justify-content: space-evenly;
-    margin-top: 130px;
-    margin-bottom: 0px;
-    
-    bottom: 0px;
-}
-#footer a{
-    text-decoration: none;
-    color: #fff;
-}
-#footer a:hover{
-    color: blue;
+#image {
+  width: 500px;
+  height: 300px;
+  margin-top: 10px;
 }
 
-#footer h3{
-    color: #fff;
+#footer {
+  background-color: #5b5757;
+  display: flex;
+  padding: 50px;
+  justify-content: space-evenly;
+  margin-top: 130px;
+  margin-bottom: 0px;
+
+  bottom: 0px;
+}
+#footer a {
+  text-decoration: none;
+  color: #fff;
+}
+#footer a:hover {
+  color: blue;
 }
 
-#footer p{
-    color: #fff;
-}
-#footer li{
-    color: #fff;
+#footer h3 {
+  color: #fff;
 }
 
-#ad{
-    display: flex;
-    justify-content: space-around;
+#footer p {
+  color: #fff;
+}
+#footer li {
+  color: #fff;
 }
 
-#ad img{
-    width: 500px;
-    height: 300px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    animation: fade 2s infinite;
+#ad {
+  display: flex;
+  justify-content: space-around;
+}
+
+#ad img {
+  width: 500px;
+  height: 300px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  animation: fade 2s infinite;
 }
 @keyframes fade {
-    0% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
+  0% {
+    opacity: 0;
   }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
-  #first{
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 20px;
-    color: #174903;
-    
-  }
-  #second{
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 20px;
-    color: #174903;
-  }
+#first {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 20px;
+  color: #174903;
+}
+#second {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 20px;
+  color: #174903;
+}
