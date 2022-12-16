@@ -72,12 +72,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const btn = document.getElementById('btn')
 
-btn.addEventListener("click",function(){
+btn.addEventListener("click",function(e){
+e.preventDefault()
 const comment = document.getElementById("comment").value
 let myComment = document.getElementById("enter")
 console.log(comment)
 myComment.innerHTML = comment
-
-
 
 })
